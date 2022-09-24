@@ -10,7 +10,7 @@ year = parseInt(year);
 
 if (month < 4 || month > 6)
     console.log("False");
-else if ((date < 20 && month == 4) || (date > 20 && month == 6))
+else if ((date < 20 && month == 4) || (date > 20 && month == 6))    
     console.log("False");
 else
     console.log("True");
