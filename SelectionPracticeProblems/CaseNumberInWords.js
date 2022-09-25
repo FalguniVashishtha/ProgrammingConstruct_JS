@@ -2,7 +2,8 @@ const readline = require("readline-sync");
 
 let number = parseInt(readline.question("Enter the number: "));
 
-switch(number){
+switch(number)
+{
     case 0 :
         console.log("Zero");
         break;
@@ -37,7 +38,3 @@ switch(number){
         console.log("Invalid Number");
         break;        
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Term
